@@ -13,7 +13,7 @@ export default function Login() {
   useEffect(() => {
     if (isAuthenticated) {
       alert("Correct!!");
-      router.push("/admin/");
+      router.push("/admin/products");
     }
   }, [isAuthenticated, router]);
 
